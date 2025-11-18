@@ -1,0 +1,39 @@
+section {
+    max-width: 800px; 
+    padding: 60px 40px;
+    margin: 50px auto;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+img {
+    width: 150px;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.5rem;
+    line-height: 1.6;
+}
+
+button {
+    margin: 15px;
+    padding: 16px 26px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    border: none;
+    background: #0077ff;
+    color: #fff;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #005fcc;
+}

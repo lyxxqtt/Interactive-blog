@@ -1,0 +1,13 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: white;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    transition: 0.3s, color 0.3s;
+}
+
+.dark-theme {
+    background: #111;
+    color: #ddd;
+}
