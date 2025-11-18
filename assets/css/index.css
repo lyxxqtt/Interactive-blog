@@ -28,12 +28,21 @@ button {
     font-size: 1.3rem;
     cursor: pointer;
     border: none;
-    background: #0077ff;
+    background: #000;
     color: #fff;
     border-radius: 8px;
-    transition: 0.2s;
+    transition: 0.3s, color 0.3s;
 }
 
 button:hover {
-    background: #005fcc;
+    background: #333;
 }
+
+body.dark-theme button {
+    background: #fff;
+    color: #000;
+}
+
+body.dark-theme button:hover {
+    background: #ccc;
+}   
