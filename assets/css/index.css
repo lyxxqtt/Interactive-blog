@@ -8,23 +8,39 @@ section {
 
 img {
     width: 150px;
-    margin-bottom: 25px;
+    margin-bottom: 35px; /* slightly more spacing from top content */
     cursor: pointer;
 }
 
 h1 {
     font-size: 3rem;
-    margin-bottom: 20px;
+    margin-bottom: 25px; /* more breathing room under h1 */
+}
+
+.social-icons {
+    margin-top: 20px; /* increased spacing above icons */
+    margin-bottom: 30px; /* spacing below icons before content */
+}
+
+.social-icons a {
+    margin: 0 12px; /* slightly more space between icons */
+    font-size: 28px;
+    color: #000;
+    transition: 0.3s;
 }
 
 p {
-    font-size: 1.5rem;
-    line-height: 1.6;
+    font-size: 1.25rem;
+    line-height: 1.8;
+    font-family: "Georgia", "Times New Roman", serif;
+    color: #333;
+    margin-bottom: 20px; /* more space between paragraphs */
+    text-align: justify;
 }
 
 button {
-    margin: 15px;
-    padding: 16px 26px;
+    margin: 20px 10px; /* uniform spacing around buttons */
+    padding: 16px 28px; /* slightly wider padding */
     font-size: 1.3rem;
     cursor: pointer;
     border: none;
@@ -37,12 +53,3 @@ button {
 button:hover {
     background: #333;
 }
-
-body.dark-theme button {
-    background: #fff;
-    color: #000;
-}
-
-body.dark-theme button:hover {
-    background: #ccc;
-}   

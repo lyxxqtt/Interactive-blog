@@ -8,7 +8,7 @@ const $img = $("#profile-img");
 
 // Show More Button
 $("#show-more-btn").click(function() {
-    $("#extra-content").slideToggle(250);
+    $("#content").slideToggle(250);
     $(this).text($(this).text() === "Show More" ? "Show Less" : "Show More");
 });
 

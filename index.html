@@ -9,9 +9,12 @@
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/body-size.css">
     <link rel="stylesheet" href="/assets/css/index.css">
+    <link rel="stylesheet" href="/assets/css/dark-mode.css">
 
-    <!-- API Library -->
+    <!-- Library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 <body>
 
@@ -19,12 +22,26 @@
     <img id="profile-img" src="/assets/img/profile-pic/light-mode/formal-pose.svg" alt="Calyx James Molina Profile">
 
     <h1>Molina Interactive Blog</h1>
-    <p>I’m an editor. I share projects, ideas, and things I create online.</p>
+
+    <div class="social-icons">
+        <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-tiktok"></i></a>
+    </div>
+
+    <div id="content" style="display: none;">
+        <p>
+            Hi! I’m a graphic designer and I love creating designs. I started in high school when I joined SPA, which stands for Special Program in the Arts. That’s where I learned how to edit and make designs. Now, I am also learning to code because I chose the ICT strand. I am still learning, but I am excited to create more and improve my skills.
+        </p>
+    </div>
 
     <button id="show-more-btn">Show More</button>
     <button id="theme-toggle-btn">Change Theme</button>
-
+    <button id="comment-btn">Add Comment</button>
 </section>
+
+
 
 <script src="/assets/js/index.js"> </script>
 

@@ -1,0 +1,30 @@
+
+/* Dark mode styles */
+.dark-theme {
+    background: #111;
+    color: #ddd;
+}
+
+/* Social icons in dark mode */
+body.dark-theme .social-icons a {
+    color: #fff;
+}
+
+body.dark-theme .social-icons a:hover {
+    color: #ccc;
+}
+
+/* Buttons in dark mode */
+body.dark-theme button {
+    background: #fff;
+    color: #000;
+}
+
+body.dark-theme button:hover {
+    background: #ccc;
+}   
+
+/* Paragraphs in dark mode */
+body.dark-theme p {
+    color: #fff;
+}
