@@ -24,3 +24,15 @@ $img.hover(
     () => $img.attr("src", imgPaths[theme][1]),
     () => $img.attr("src", imgPaths[theme][0])
 );
+
+// Add Comment Button
+$("#comment-btn").click(function () {
+    let comment = $("#comment-input").val().trim();
+
+    if (comment === "") return; 
+
+    const li = $("<li></li>").text(comment);
+    $("#comment-list").append(li);
+
+    $("#comment-input").val("");
+});

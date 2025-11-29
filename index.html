@@ -17,33 +17,45 @@
 
 </head>
 <body>
+    <section>   
+        <img id="profile-img" src="/assets/img/profile-pic/light-mode/formal-pose.svg" alt="Calyx James Molina Profile">
 
-<section>   
-    <img id="profile-img" src="/assets/img/profile-pic/light-mode/formal-pose.svg" alt="Calyx James Molina Profile">
+        <h1>Molina Interactive Blog</h1>
 
-    <h1>Molina Interactive Blog</h1>
+        <div class="social-icons">
+            <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-tiktok"></i></a>
+        </div>
 
-    <div class="social-icons">
-        <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
-        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
-        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="#" target="_blank"><i class="fab fa-tiktok"></i></a>
-    </div>
+        <div id="content" style="display: none;">
+            <p>
+                Hi! I’m a graphic designer and I love creating designs. I started in high school when I joined SPA, which stands for Special Program in the Arts. That’s where I learned how to edit and make designs. Now, I am also learning to code because I chose the ICT strand. I am still learning, but I am excited to create more and improve my skills.
+            </p>
+        </div>
 
-    <div id="content" style="display: none;">
-        <p>
-            Hi! I’m a graphic designer and I love creating designs. I started in high school when I joined SPA, which stands for Special Program in the Arts. That’s where I learned how to edit and make designs. Now, I am also learning to code because I chose the ICT strand. I am still learning, but I am excited to create more and improve my skills.
-        </p>
-    </div>
+        <button id="show-more-btn">Show More</button>
+        <button id="theme-toggle-btn">Change Theme</button>
 
-    <button id="show-more-btn">Show More</button>
-    <button id="theme-toggle-btn">Change Theme</button>
-    <button id="comment-btn">Add Comment</button>
-</section>
+        <!-- COMMENT BOX -->
+        <div id="comment-box">
+            <h3>Add a Comment</h3>
 
+            <div class="comment-area">
+                <textarea id="comment-input" placeholder="Write your comment..."></textarea>
+            </div>
 
+            <button id="comment-btn" class="comment-submit">Post Comment</button>
+        </div>
 
-<script src="/assets/js/index.js"> </script>
+        <!-- COMMENT LIST -->
+        <div id="comment-section">
+            <h3>Comments</h3>
+            <ul id="comment-list"></ul>
+        </div>
+    </section>
 
+    <script src="/assets/js/index.js"> </script>
 </body>
 </html>
